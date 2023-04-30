@@ -2,4 +2,94 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: 1px solid black; */
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+
+.tax-credit-section{
+    padding: .95rem;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.tax-credit-section p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .85rem;
+}
+
+.tax-credit-section p a{
+    color: #000;
+}
+
+header{
+    height: 100vh;
+    position: absolute;
+
+}
+
+.logo img{
+    width: 100px;
+    filter: invert(1);
+}
+
+nav{
+    width: 100%;
+    padding: .55rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+}
+
+.nav__links ul,
+.options ul{
+    display: flex;
+    padding: 0  .75rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav__links ul li,
+.options ul li{
+    list-style: none;
+    display: flex;
+    transition: background-color .5s;
+}
+
+.nav__links ul li a,
+.options ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: .95rem;
+    cursor: pointer;
+    padding: .65rem 1rem;
+}
+
+.nav__links ul li:hover, 
+.options ul li:hover{
+    background-color: #00000014;
+    opacity: 4;
+    border-radius: 5px;
+    filter: blur(50);
+}
+
+.hero{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.video__bg{
+    width: 100%;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
 }
