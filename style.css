@@ -81,7 +81,7 @@ nav{
 .nav__links .options ul li a{
     padding: .55rem .95rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: .85rem;
     text-decoration: none;
     color: #fff;
@@ -93,32 +93,51 @@ nav{
 .nav__links .links ul li a:hover,
 .nav__links .options ul li a:hover{
     background-color: #0000002d;
-    filter: blur(50);
 }
 
-.side__menu{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 400px;
-    height: 100vh;
-    background-color: yellowgreen;
-}
-
-.side__menu .text__content{
+.hero__content{
+    position: relative;
+    top: 18%;
     display: flex;
     flex-direction: column;
-    background-color: yellow;
-    width: 350px;
-    height: 500px;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    margin: 2rem;
-    text-align: left;
+    padding: 1rem;
+    height: 70%;
 }
 
-.side__menu .text__content a{
-    text-align: left;
+.hero__content .text{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero__content .text h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero__content .text p{
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: .85px;
+}
+
+.hero__content .demo__btn a{
+    padding: .55rem 6rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    transition: background-color .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.hero__content .demo__btn a:hover{
+    background-color: #fff;
+    color: #000;
 }
 
 @media (max-width: 1200px){
@@ -126,26 +145,5 @@ nav{
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ---------------- HEADER SECTION STYLE END ------------------------ */
